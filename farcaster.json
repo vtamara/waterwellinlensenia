@@ -1,0 +1,35 @@
+{
+  "frame": {
+    "name": "Water well for Lensenia",
+    "version": "1",
+    "iconUrl": "https://vtamara-waterwellinlensenia.vercel.app/icon.png",
+    "homeUrl": "https://vtamara-waterwellinlensenia.vercel.app",
+    "imageUrl": "https://vtamara-waterwellinlensenia.vercel.app/image.png",
+    "buttonTitle": "Donate for a water well in 2025",
+    "splashImageUrl": "https://vtamara-waterwellinlensenia.vercel.app/splash.png",
+    "splashBackgroundColor": "#EEFFFF",
+    "webhookUrl": "https://vtamara-waterwellinlensenia.vercel.app/api/webhook",
+    "subtitle": "Lensenia is in the Falaba district in Sierra Leone",
+    "description": "Please check more about this project as well as pictures and videos at https://www.pasosdejesus.org/lensenia/",
+    "primaryCategory": "social",
+    "tags": [
+      "social",
+      "community",
+      "waterwell"
+    ],
+    "tagline": "Love the people",
+    "ogTitle": "LenseniaWaterWell",
+    "ogDescription": "Minimal app to donate for the water well project in Lensenia, Sierra Leone",
+    "ogImageUrl": "https://www.pasosdejesus.org/lensenia/imagen/location_Lensenia.png",
+    "screenshotUrls": [
+      "https://www.pasosdejesus.org/lensenia/imagen/location_Lensenia.png"
+    ],
+    "heroImageUrl": "https://www.pasosdejesus.org/lensenia/imagen/location_Lensenia.png",
+    "castShareUrl": "https://farcaster.xyz/vtamara/0xe97f65ec"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEwMTMxMjMsInR5cGUiOiJhdXRoIiwia2V5IjoiMHgwMDI2MzZGMkJlNEFBQ2ZEYzk2QzVmNGQyZTEzNjMyNzNmZTdGOUM3In0",
+    "payload": "eyJkb21haW4iOiJ2dGFtYXJhLXdhdGVyd2VsbGlubGVuc2VuaWEudmVyY2VsLmFwcCJ9",
+    "signature": "St9TQyGXs1MZ5Q9GFijZjysw92YiG4Ab+QFc7D8j0ZAeeXGxTY/8+1K6cUvFCzySn5pqvmbfbR7N9Z5R4zKEXBs="
+  }
+}
