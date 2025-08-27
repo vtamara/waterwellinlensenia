@@ -14,18 +14,6 @@ export async function GET() {
       signature: 
         "MHhkMmQzYjliMTMzMThiMTZkMjFiMDNjOTM5NGM2ODEyNzk0ZWY0MWNjZTU5NDQzZjMyMTc4ODE1ZjA2NmNiY2RjN2MyZmFkZGNiYmE2YTBkNWRkZWI0YTMwMDY4YThkYTJhNGUzZTcwNTA5NmRiN2VmZmY2NTQyMmNkZTY0OGVmMTFi"
     },
-    frame: {
-      version: "1",
-      name: PROJECT_TITLE,
-      iconUrl: `${appUrl}/icon.png`,
-      homeUrl: appUrl,
-      imageUrl: `${appUrl}/og.png`,
-      buttonTitle: "Open",
-      webhookUrl: `${appUrl}/api/webhook`,
-      splashImageUrl: `${appUrl}/splash.png`,
-      splashBackgroundColor: "#555555",
-      primaryCategory: "social",
-    },
     miniapp: {
       version: "1",
       name: PROJECT_TITLE,
