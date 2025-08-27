@@ -104,6 +104,23 @@ export function DonationApp() {
           )}
         </CardContent>
       </Card>
+      
+      {/* Project Reference Link */}
+      <Card className="border-muted">
+        <CardContent className="pt-6 text-center">
+          <p className="text-sm text-muted-foreground mb-3">
+            Learn more about this project
+          </p>
+          <a 
+            href="https://www.pasosdejesus.org/lensenia/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-800 underline text-sm font-medium"
+          >
+            Visit Project Website
+          </a>
+        </CardContent>
+      </Card>
     </div>
   );
 }
