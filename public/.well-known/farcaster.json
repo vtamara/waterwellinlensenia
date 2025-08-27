@@ -28,8 +28,8 @@
     "castShareUrl": "https://farcaster.xyz/vtamara/0xe97f65ec"
   },
   "accountAssociation": {
-    "header": "eyJmaWQiOjEwMTMxMjMsInR5cGUiOiJhdXRoIiwia2V5IjoiMHgwMDI2MzZGMkJlNEFBQ2ZEYzk2QzVmNGQyZTEzNjMyNzNmZTdGOUM3In0",
-    "payload": "eyJkb21haW4iOiJ2dGFtYXJhLXdhdGVyd2VsbGlubGVuc2VuaWEudmVyY2VsLmFwcCJ9",
-    "signature": "St9TQyGXs1MZ5Q9GFijZjysw92YiG4Ab+QFc7D8j0ZAeeXGxTY/8+1K6cUvFCzySn5pqvmbfbR7N9Z5R4zKEXBs="
+    "header": "eyJmaWQiOjEwMTMxMjMsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHhhYjEwNzMzMTI2MUI5RTdBN2Y5ZGNhM2Y4ZjY4YTBlMzhlM2NkOWY1In0",
+    "payload": "eyJkb21haW4iOiJ3YXRlcndlbGxpbmxlbnNlbmlhLnZlcmNlbC5hcHAifQ",
+    "signature": "MHhkMmQzYjliMTMzMThiMTZkMjFiMDNjOTM5NGM2ODEyNzk0ZWY0MWNjZTU5NDQzZjMyMTc4ODE1ZjA2NmNiY2RjN2MyZmFkZGNiYmE2YTBkNWRkZWI0YTMwMDY4YThkYTJhNGUzZTcwNTA5NmRiN2VmZmY2NTQyMmNkZTY0OGVmMTFi"
   }
 }
