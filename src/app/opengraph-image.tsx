@@ -26,7 +26,7 @@ export default async function Image() {
           overflow: "hidden",
         }}
       >
-        {/* Background gradient with Farcaster purple and electric blue */}
+        {/* Background gradient with water-themed colors */}
         <div
           style={{
             position: "absolute",
@@ -34,12 +34,12 @@ export default async function Image() {
             left: 0,
             right: 0,
             bottom: 0,
-            background: "linear-gradient(135deg, #8A63D2 0%, #1E90FF 100%)",
+            background: "linear-gradient(135deg, #0077BE 0%, #00A6D6 50%, #4FC3F7 100%)",
             opacity: 0.9,
           }}
         />
 
-        {/* Subtle pattern overlay for depth */}
+        {/* Water ripple pattern overlay for depth */}
         <div
           style={{
             position: "absolute",
@@ -48,7 +48,7 @@ export default async function Image() {
             right: 0,
             bottom: 0,
             backgroundImage:
-              "radial-gradient(circle at 20% 80%, rgba(138, 99, 210, 0.4) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(30, 144, 255, 0.4) 0%, transparent 50%)",
+              "radial-gradient(circle at 20% 80%, rgba(0, 166, 214, 0.4) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(79, 195, 247, 0.4) 0%, transparent 50%)",
           }}
         />
 
@@ -138,17 +138,49 @@ export default async function Image() {
             {PROJECT_TITLE}
           </h1>
 
+          {/* Water drop icon */}
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginBottom: "24px",
+            }}
+          >
+            <svg
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+              fill="none"
+              style={{
+                display: "block",
+                filter: "drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3))",
+              }}
+            >
+              <path
+                d="M12 2C12 2 6 8 6 13C6 16.31 8.69 19 12 19C15.31 19 18 16.31 18 13C18 8 12 2 12 2Z"
+                fill="rgba(255, 255, 255, 0.9)"
+                stroke="rgba(255, 255, 255, 0.7)"
+                strokeWidth="1"
+              />
+              <path
+                d="M12 16C10.34 16 9 14.66 9 13C9 11.5 10.5 9.5 12 8C13.5 9.5 15 11.5 15 13C15 14.66 13.66 16 12 16Z"
+                fill="rgba(79, 195, 247, 0.8)"
+              />
+            </svg>
+          </div>
+
           {/* Project description */}
           <p
             style={{
-              fontSize: "36px",
+              fontSize: "32px",
               fontWeight: "600",
               color: "rgba(255, 255, 255, 0.95)",
               textAlign: "center",
               marginBottom: "56px",
               lineHeight: 1.3,
               textShadow: "0 3px 12px rgba(0, 0, 0, 0.4)",
-              maxWidth: "800px",
+              maxWidth: "900px",
               fontFamily: "system-ui, -apple-system, sans-serif",
             }}
           >
